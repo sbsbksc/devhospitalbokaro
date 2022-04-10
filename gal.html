@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="devhospitalbokaro">
+	<meta name="keywords" content="devhospitalbokaro">
+    <meta name="author" content="©Shyam Bhusan Srivastava">
+	<title>Dev Hospital Bokaro</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,800,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'> -->
+	<script src="js/modernizr.js"></script>
+	<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+	<style>
+		table, th, td {
+		  border: 1px solid black;
+		  border-collapse: collapse;
+		  margin-left: auto;
+  		  margin-right: auto;
+		  font-size: 20px;
+		}
+		th, td {
+		  padding: 5px;
+		}
+
+		#myBtn {
+			display: none;
+			position: fixed;
+			bottom: 50px;
+			right: 20px;
+			z-index: 99;
+			font-size: 18px;
+			border: none;
+			outline: none;
+			background-color: #f4bf31;
+			color: white;
+			cursor: pointer;
+			padding: 5px;
+			border-radius: 4px;
+		}
+
+		#myBtn:hover {
+			background-color: #555;
+		}
+
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 0 4px;
+		}
+
+			/* Create four equal columns that sits next to each other */
+		.column {
+			flex: 25%;
+			max-width: 25%;
+			padding: 0 4px;
+		}
+
+		.column img {
+			margin-top: 8px;
+			vertical-align: middle;
+			width: 100%;
+		}
+
+			/* Responsive layout - makes a two column-layout instead of four columns */
+		@media screen and (max-width: 800px) {
+		.column {
+				flex: 50%;
+				max-width: 50%;
+		}
+		}
+
+			/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 600px) {
+		.column {
+				flex: 100%;
+				max-width: 100%;
+		}
+		}
+
+	</style>
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top&#8593;</button>
+	<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
+	<center>
+	<a href="./index.html"><b>Homepage</b></a>
+	<!-- Photo Grid -->
+	<div class="row"> 
+		<div class="column">
+		  <img src="./gallery/img1.jpeg" style="width:100%">
+		  <img src="./gallery/img2.jpeg" style="width:100%">
+		  <img src="./gallery/img3.jpeg" style="width:100%">
+		  <img src="./gallery/img4.jpeg" style="width:100%">
+		  <img src="./gallery/img5.jpeg" style="width:100%">
+		</div>
+		<div class="column">
+			<img src="./gallery/img6.jpeg" style="width:100%">
+			<img src="./gallery/img7.jpeg" style="width:100%">
+			<img src="./gallery/img8.jpeg" style="width:100%">
+			<img src="./gallery/img9.jpeg" style="width:100%">
+			<img src="./gallery/img10.jpeg" style="width:100%">
+		</div>  
+		<div class="column">
+			<img src="./gallery/img11.jpeg" style="width:100%">
+			<img src="./gallery/img12.jpeg" style="width:100%">
+			<img src="./gallery/img13.jpeg" style="width:100%">
+			<img src="./gallery/img14.jpeg" style="width:100%">
+			<img src="./gallery/img15.jpeg" style="width:100%">
+		</div>
+		<div class="column">
+			<img src="./gallery/img16.jpeg" style="width:100%">
+			<img src="./gallery/img17.jpeg" style="width:100%">
+			<img src="./gallery/img18.jpeg" style="width:100%">
+			<img src="./gallery/img19.jpeg" style="width:100%">
+			<img src="./gallery/img20.jpeg" style="width:100%">
+		</div>
+		<div class="column">
+			<img src="./gallery/img21.jpeg" style="width:100%">
+			<img src="./gallery/img22.jpeg" style="width:100%">
+		</div>
+		<div class="column">
+			<img src="./gallery/img23.jpeg" style="width:100%">
+			<img src="./gallery/img24.jpeg" style="width:100%">
+		</div>
+		<div class="column">
+			<img src="./gallery/img25.jpeg" style="width:100%">
+			<img src="./gallery/img26.jpeg" style="width:100%">
+		</div>
+		<div class="column">
+			<img src="./gallery/img27.jpeg" style="width:100%">
+			<img src="./gallery/img28.jpeg" style="width:100%">
+		</div>
+		<div class="column">
+			<img src="./gallery/img29.jpeg" style="width:100%">
+		</div>
+		<div class="column">
+			<img src="./gallery/img30.jpeg" style="width:100%">
+		</div>
+	  </div>
+	
+	<a href="./index.html"><b>Homepage</b></a>
+</center>
+	<!-- footer starts here -->
+	<footer class="footer clearfix">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 footer-para">
+					<p>&copy;SBSBKSC All right reserved</p>
+				</div>
+				<div class="col-xs-6 text-right">
+					<a href=""><i class="fa fa-facebook"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""><i class="fa fa-skype"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- script tags
+	============================================================= -->
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="js/gmaps.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>
